@@ -1,0 +1,117 @@
+html, body{
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    color:#fff;
+}
+
+#section1{
+    background: rgba(0, 0, 0, 0.5) url(./images/green-vegetables-on-brown-wooden-chopping-board-3952047.jpg);
+    background-blend-mode: darken;
+    width: 100%;
+    height: 800px;
+}
+
+#header {
+    border-bottom: 2px solid #fff;
+    margin: 0px 100px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    padding-top: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+#logo{
+    flex-grow: 10;
+    padding: 0px;
+}
+
+#nav{
+    align-self: flex-end;
+    justify-self:flex-end;
+    list-style-type: none;
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 0px;
+    margin: 0;
+}
+#nav li{
+    padding-left: 20px;
+    justify-content: flex-end;
+}
+
+#title{
+    width: 100%;
+    height: 625px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    padding: 20px 60px;
+    margin: 0;
+    border-bottom: 2px #fff solid;
+    font-size: 90px;
+}
+
+h2 {
+    margin: 0px;
+    padding: 10px;
+    font-family:'Raleway', sans-serif;
+    font-weight:lighter;
+    font-size: 52px;
+}
+
+h3{
+    font-size: 45px;
+}
+
+h4{
+    font-size: 22px;
+    font-weight: lighter;
+    margin: 0;
+}
+
+p{
+    font-family:'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.sectionText{
+    padding: 60px;
+}
+
+#section2{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+}
+
+#section3{
+    width: 100%;
+    height: 400px;
+    background-color: #151515;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#section4{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(41, 41, 41);
+    display: flex;
+    flex-direction: row;
+}
